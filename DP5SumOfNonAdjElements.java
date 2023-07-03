@@ -41,7 +41,7 @@ public class DP5SumOfNonAdjElements {
 		if(dp[ind] != -1)
 			return dp[ind];
 		if(ind == 0 )
-			return dp[ind];
+			return arr[ind];
 		
 		
 		int pick = arr[ind]+maxSum(ind-2,arr,dp);
